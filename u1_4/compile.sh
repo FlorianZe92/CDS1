@@ -1,0 +1,1 @@
+gcc -lm implEuler.c -o implEuler.exe
