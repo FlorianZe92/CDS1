@@ -75,7 +75,7 @@ void main(){
 		double h = pow(10, -i);
 		Result iev = implizitesEulerVerfahren(funcB, 0.0, -2.0, 0.0, h);
 		// todo print it or export it
-		printf("%f: %f, target: %f\n", h, iev.values[iev.length-1], -log(1.0 + log(5.0)));
+		printf("10^-%d: %.17g, target: %.17g\n", i, iev.values[iev.length-1], -log(1.0 + log(5.0)));
 	}
 	
 }
